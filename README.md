@@ -1,8 +1,9 @@
 # Cronjob Backup and Default Dev-kit#
-A backup of parts of my dev setup using automatic pushes with a cronjob. Designed to:
-* Simplify sharing my dev setup with others
-* Speed transition onto new machines and get working quickly
-* Make restoration easier in case I mess something up switching setups, or sharing practices easier.
+A backup of certain parts of my dev setup using automatic pushes with a cronjob. Designed to:
+- Simplify sharing my dev setup with others
+- Provide a useful change log of my preferences
+- Speed transition onto new machines and get working quickly
+- Make restoration easier in case I mess something up
 
 I'm someone that really needs things to be functional, well designed, and aesthetically pleasing for me to sit and use it for hours. Because of this, I've spent a lot of time customizing Sublime, Atom, iTerm2, vim, zsh, and more. If you want your setup to look something like this:
 
