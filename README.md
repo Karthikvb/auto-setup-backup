@@ -8,3 +8,4 @@ I'm someone that really needs things to be functional, well designed, and aesthe
 Inline-style:
 ![alt text](https://github.com/ryanjhill/cronjobBackup/pictures/screenshot1.png "Setup Screenshot")
 And have lots of extra productivity features, try out my setup! Or, check below to read about how I went about setting some of these customizations up, or to see how you can create your own cronjob backup to github!
+Move easily onto new machines
