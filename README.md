@@ -1,4 +1,4 @@
-# cronjob Backup #
+# Cronjob Backup and Default Dev-kit#
 A backup of parts of my dev setup using automatic pushes with a cronjob. Designed to:
 * Simplify sharing my dev setup with others
 * Speed transition onto new machines and get working quickly
@@ -21,7 +21,10 @@ And have lots of extra productivity features, try out my setup! Or, check below 
 ##cronjob backup explained##
 
 ##iTerm2 setup##
-The great thing though is that iTerm stores all of the below listed shortcuts, color schemes, and more in a .plist file, so feel free to use mine as a basis for your setup.
+[iTerm][iterm] (and it's updated version, iTerm2) is the power-user terminal for OS X. It's full of great features and OS integrations that make my working experience that much more seamless. It's also very customizable, so even if it doesn't fit your needs right away, it most certainly can be molded to do so. Unfortunately, doing all of this setup can feel like a bit much.
+[iterm]:https://www.iterm2.com/
+
+The great thing though is that iTerm stores all of the below listed shortcuts, color schemes, and more in a .plist file, so feel free to use mine as a basis for your setup. Otherwise, below a few of the key points.
 
 ###Weird hex codes###
 I'm a huge supporter of keyboard commands, so I found it unfortunate when iTerm didn't respond well to most of my usual OS X keybindings. Luckily everything I wanted could be added to iTerm, but it required a bit of googling and learning about iTerm's hex code commands.
@@ -38,7 +41,7 @@ Some of the most important ones:
 There are plenty of other bindings to add – if something doesn't work how you want it to, iTerm can probably be made to do it. Try googling it!
 
 ###Color schemes###
-Especially because I use vim a lot, and am also frequently working over ssh, I end up starting at my terminal a lot. That means I need something that is easy on the eyes, has good color differentiation, and is very readable (even when my eyes are tired and I've taken off my contacts.)
+Especially because I use vim a lot, and am also frequently working over ssh, I end up starting at my terminal a lot. That means I need something that is easy on the eyes, has good color differentiation, and is very readable (even when my eyes are tired and I've taken off my contacts.) I love my color scheme – its something I built specifically so that I'd enjoy looking at it for hours on end. It's part of my .plist file, so check it out!
 
 ###Fonts###
 I use 12pt 'Hack' and 12pt 'Source Code Powerline' for non-ASCII text. Hack is incredibly readable, which the other font has a wide symbol library that I like for plugins like Powerline.
@@ -48,13 +51,16 @@ There are lots of reasons that I prefer zsh to bash, but to be quite honest, the
 
 The default terminal for most people is bash, but zsh is also usually preinstall. Just run `chsh -s $(which zsh)` to set zsh as your default, and BAM, your life just got better.
 
-zsh becomes x10 nicer when you add the power of [oh-my-zsh.][1] The actual guide for this one is pretty thorough, and I use the default theme, so I'll just leave it at that.
-[1]: https://github.com/robbyrussell/oh-my-zsh
+zsh becomes x10 nicer when you add the power of [oh-my-zsh.][omz] The actual guide for this one is pretty thorough, and I use the default theme, so I'll just leave it at that.
+[omz]: https://github.com/robbyrussell/oh-my-zsh
 
 And then, on top of all of this, zsh has its own customizable preferences within the .zshrc file. Mine isn't too crazy, but it has the basics plus a few aliases.
 
 ##vim setup##
 
 ##atom setup##
+What is Atom?
+Install Atom here
+The bulk of customizing Atom goes into adding packages. Your packages are then stored in `~/.atom/packages`. I copied the full package directory into this github's 'Atom' folder, so you can browser my packages by looking at the directory names.
 
 ##sublime setup##
