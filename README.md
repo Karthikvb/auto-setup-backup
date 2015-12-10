@@ -12,17 +12,14 @@ I'm someone that really needs things to be functional, well designed, and aesthe
 
 And have lots of extra productivity features, try out my setup! Or, check below to read about how I went about setting some (but not all) of these customizations up, or to see how you can create your own cronjob backup to github!
 
----
+##Table of contents##
+- [cronjob backup explained](#)
+- [iTerm2 setup](#)
+- [zsh, oh-my-zsh, and .zshrc setup](#)
+- [vim setup](#)
+- [atom setup](#)
+- [sublime setup](#)
 
-##Things I talk about below## *generated with [DocToc](http://doctoc.herokuapp.com/)*
-    - [cronjob backup explained](#)
-    - [iTerm2 setup](#)
-    - [zsh, oh-my-zsh, and .zshrc setup](#)
-    - [vim setup](#)
-    - [atom setup](#)
-    - [sublime setup](#)
-
----
 
 ##cronjob backup explained##
 
