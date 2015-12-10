@@ -27,13 +27,13 @@ The great thing though is that iTerm stores all of the below listed shortcuts, c
 I'm a huge supporter of keyboard commands, so I found it unfortunate when iTerm didn't respond well to most of my usual OS X keybindings. Luckily everything I wanted could be added to iTerm, but it required a bit of googling and learning about iTerm's hex code commands.
 
 Some of the most important ones:
-- `alt + arrows` for jumping one word back
+- `alt +  ⟵` for jumping one word back
   - Profiles > Keys > '+' > Send Escape Sequence > b
-- `alt + arrows` for jumping one word forward
+- `alt + ⟶` for jumping one word forward
   - Profiles > Keys > '+' > Send Escape Sequence > f
 - `cmd + del` for deleting all of line behind the cursor
   - Profiles > Keys > '+' > Send Hex Code > 0x18 0x7f
-  - As a side note, if you run zsh you will need to run `echo 'bindkey "^X\\x7f" backward-kill-line' >> ~/.zshrc` to have this work properly
+  - As a side note, if you run zsh you will need to run `echo 'bindkey "^X\\x7f" backward-kill-line' >> ~/.zshrc` to have this work properly (or just add the segment directly to your .zshrc instead of piping it into the file)
 
 There are plenty of other bindings to add – if something doesn't work how you want it to, iTerm can probably be made to do it. Try googling it!
 
@@ -44,6 +44,14 @@ Especially because I use vim a lot, and am also frequently working over ssh, I e
 I use 12pt 'Hack' and 12pt 'Source Code Powerline' for non-ASCII text. Hack is incredibly readable, which the other font has a wide symbol library that I like for plugins like Powerline.
 
 ##zsh, oh-my-zsh, and .zshrc setup##
+There are lots of reasons that I prefer zsh to bash, but to be quite honest, the most compelling reason is and has always been the enhanced autocompletion. You know it is good when using bash now becomes frustratingly slow in comparison because you can't use `TAB` like you are used to.
+
+The default terminal for most people is bash, but zsh is also usually preinstall. Just run `chsh -s $(which zsh)` to set zsh as your default, and BAM, your life just got better.
+
+zsh becomes x10 nicer when you add the power of [oh-my-zsh.][1] The actual guide for this one is pretty thorough, and I use the default theme, so I'll just leave it at that.
+[1]: https://github.com/robbyrussell/oh-my-zsh
+
+And then, on top of all of this, zsh has its own customizable preferences within the .zshrc file. Mine isn't too crazy, but it has the basics plus a few aliases.
 
 ##vim setup##
 
