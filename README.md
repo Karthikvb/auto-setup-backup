@@ -1,6 +1,6 @@
 # Cronjob Backup and Default Dev-kit#
 
-changes after me not being tired after finals LOL!
+v2 test
 
 A backup of certain parts of my dev setup using automatic pushes with a cronjob. Designed to:
 - Simplify sharing my dev setup with others
