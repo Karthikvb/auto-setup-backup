@@ -1,4 +1,7 @@
 # Cronjob Backup and Default Dev-kit#
+
+changes after me not being tired after finals LOL
+
 A backup of certain parts of my dev setup using automatic pushes with a cronjob. Designed to:
 - Simplify sharing my dev setup with others
 - Provide a useful change log of my preferences
@@ -60,7 +63,7 @@ And then, on top of all of this, zsh has its own customizable preferences within
 ##vim setup##
 
 ##atom setup##
-What is Atom? (Testing from Taner plus ssh connect instead v3)
+What is Atom?
 Install Atom here
 The bulk of customizing Atom goes into adding packages. Your packages are then stored in `~/.atom/packages`. I copied the full package directory into this github's 'Atom' folder, so you can browser my packages by looking at the directory names.
 
