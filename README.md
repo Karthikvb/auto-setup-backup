@@ -60,7 +60,7 @@ And then, on top of all of this, zsh has its own customizable preferences within
 ##vim setup##
 
 ##atom setup##
-What is Atom? (Testing from Taner plus ssh connect instead v2)
+What is Atom? (Testing from Taner plus ssh connect instead v3)
 Install Atom here
 The bulk of customizing Atom goes into adding packages. Your packages are then stored in `~/.atom/packages`. I copied the full package directory into this github's 'Atom' folder, so you can browser my packages by looking at the directory names.
 
