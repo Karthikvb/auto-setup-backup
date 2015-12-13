@@ -1,5 +1,5 @@
 # Launchd Backup and Default Dev-kit#
-Test with rsync without exclusions
+Test with script with external copy list 
 
 A backup of certain parts of my dev setup using automatic pushes with a cronjob. Designed to:
 - Simplify sharing my dev setup with others
