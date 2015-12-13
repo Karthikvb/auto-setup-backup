@@ -1,5 +1,5 @@
 # Launchd Backup and Default Dev-kit#
-Test with script with external copy list v2
+Test with script with external copy list via launchd
 
 A backup of certain parts of my dev setup using automatic pushes with a cronjob. Designed to:
 - Simplify sharing my dev setup with others
