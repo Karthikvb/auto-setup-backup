@@ -30,7 +30,7 @@ With all the options, also comes greater power. Specifically for our purpose, in
 I suggest looking at http://launchd.info/ for a good summary of how to create a launchd job; with their tutorial you should be able to have your own up in almost no time. You can also use my launchd job as reference; it's the .plist file in the scripts directory. I also included the shell script I wrote to gather files and archive them into the directory that I then push to git. I didn't include the list I read from for security reasons, but it's just a simple list of "source dest" per line, so you can easily write your own and pass it in as a parameter.
 
 ##iTerm2 setup##
-![alt text](https://github.com/ryanjhill/cronjobBackup/blob/master/pictures/iterm.jpg "iTerm2 Screenshot")
+![alt text](https://github.com/ryanjhill/cronjobBackup/blob/master/pictures/iterm2.jpg "iTerm2 Screenshot")
 
 [iTerm][iterm] (and it's updated version, iTerm2) is the power-user terminal for OS X. It's full of great features and OS integrations that make my working experience that much more seamless. It's also very customizable, so even if it doesn't fit your needs right away, it most certainly can be molded to do so. Unfortunately, doing all of this setup can feel like a bit much.
 [iterm]:https://www.iterm2.com/
@@ -70,7 +70,7 @@ zsh becomes 10x nicer when you add the power of [oh-my-zsh.][omz] The actual gui
 And then, on top of all of this, zsh has its own customizable preferences within the .zshrc file. Mine isn't too crazy, but it has the basics plus a few aliases.
 
 ##vim setup##
-![alt text](https://github.com/ryanjhill/cronjobBackup/blob/master/pictures/vim.jpg "Vim Screenshot")
+![alt text](https://github.com/ryanjhill/cronjobBackup/blob/master/pictures/vimeditor.jpg "Vim Screenshot")
 
 Vim is definitely the editor of choice for me in lots of situations. And I'm so used to the key bindings, I always make sure my other editors have the option to turn on vim-like controls.
 
