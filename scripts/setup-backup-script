@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#run keychain to keep ssh process actice
+. ~/.keychain/`/bin/hostname`-sh
+
+#loop through given file to determine files to backup
+while IFS='' read -r line || [[ -n "$line" ]]; do
+  rsync -avz $line
+done < $1
+
+#save the backup to git with timestamp
+now="$(date +'%m/%d/%Y at %r')"
+cd /Users/rjhill/Code/auto-setup-backup/
+git add *
+git commit -m "auto scheduled backup on $now"
+git push
+echo backed up on $now

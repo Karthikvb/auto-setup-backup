@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+      <key>Label</key>
+      <string>com.ryanjhill.auto-setup-backup</string>
+      <key>ProgramArguments</key>
+      <array>
+          <string>/usr/local/bin/setup-backup</string>
+          <string>/Users/rjhill/Code/auto-setup-backup/backup-list</string>
+      </array>
+      <key>StartCalendarInterval</key>
+      <array>
+        <dict>
+            <key>Day</key>
+            <integer>1</integer>
+            <key>Hour</key>
+            <integer>0</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>Day</key>
+            <integer>15</integer>
+            <key>Hour</key>
+            <integer>0</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+        </array>
+  </dict>
+</plist>
