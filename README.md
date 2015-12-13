@@ -103,10 +103,10 @@ Granted, Atom also has it's bugs, but for a 1.0 release, it phenomenal. I'm expe
 Although I only pushed preferences for a few applications, there's a few other key parts of my general workflow. Here are a few links you might want to check out if you are looking to increase your productivity or spice up your setup.
 
 - [Contexts](https://contexts.co/)
-Great app for multi-tasking and switching between apps
+  Great app for multi-tasking and switching between apps
 - [Alfred](https://www.alfredapp.com/)
-What if Mac's spotlight was actually good?
+  What if Mac's spotlight was actually good?
 - [BetterTouchTool](http://www.boastr.net/)
-Make your trackpad do basically anything.
+  Make your trackpad do basically anything.
 - [Jumpcut](http://jumpcut.sourceforge.net/)
-Keep track of more than just your last copy.
+  Keep track of more than just your last copy.
