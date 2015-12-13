@@ -20,6 +20,13 @@ And have lots of extra productivity features, try out my setup! Or, check below 
 - [sublime setup](#sublime-setup)
 
 ##cronjob backup explained##
+Initially I setup this backup script using a cronjob, but this wasn't an ideal solution for me since cron won't run if my laptop is sleeping. Laucnhd is OS X's tool that can run 'cronjobs' and queue them while the device is sleeping, so I decided to make the switch to launchd. If you want to do git backups with cron, perhaps on something like a server that is essentially always up, I suggest you use crontab and keychain to make pushes with ssh authentication. It's the only real way I know of to get the cronjob to work properly, otherwise you'll have issues with permissions, authentication, location of system id_rsa, and/or environment variables not being set. It's just a general mess.
+
+With launchd, there is definitely a much bigger 'learning curve.' Cron jobs are easily manageable with crontab,  and you can run the job in literally one line. From there, the challenge is writing a script that still works given the way cron will source files/permissions. Writing jobs for launchd is NOT a one liner. It's a very verbose XML syntax.
+
+With all the options, also comes greater power. Specifically for our purpose, in addition to being able to run timed jobs, the 'WatchPaths' key allows the job to watch for changes in a specific file or directory (but not sub directories,) which is very helpful for the purpose of making backups.
+
+I suggest looking at http://launchd.info/ for a good summary of how to create a laucnhd job; with their tutorial you should be able to have your own up in no time.
 
 ##iTerm2 setup##
 [iTerm][iterm] (and it's updated version, iTerm2) is the power-user terminal for OS X. It's full of great features and OS integrations that make my working experience that much more seamless. It's also very customizable, so even if it doesn't fit your needs right away, it most certainly can be molded to do so. Unfortunately, doing all of this setup can feel like a bit much.
