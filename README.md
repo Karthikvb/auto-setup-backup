@@ -1,7 +1,4 @@
-# Cronjob Backup and Default Dev-kit#
-
-v11
-
+# Laucnhd Backup and Default Dev-kit#
 A backup of certain parts of my dev setup using automatic pushes with a cronjob. Designed to:
 - Simplify sharing my dev setup with others
 - Provide a useful change log of my preferences
